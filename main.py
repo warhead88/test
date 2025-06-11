@@ -1,2 +1,5 @@
-def print_spuma(name: str) -> str:
-    print(f"Hello, {name}, you're so spuma!")
+from functions import print_spuma
+
+name = input("Как вас зовут?: ")
+
+print_spuma(name)
